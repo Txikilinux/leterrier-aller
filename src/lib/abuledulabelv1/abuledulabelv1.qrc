@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/abuledulabelv1/buttons">
+        <file alias="right">picto/arrow-right.png</file>
+        <file alias="rightHover">picto/arrow-right-hover.png</file>
+        <file alias="rightPressed">picto/arrow-right-pressed.png</file>
+        <file alias="rightDisabled">picto/arrow-right-gris.png</file>
+        <file alias="left">picto/arrow-left.png</file>
+        <file alias="leftHover">picto/arrow-left-hover.png</file>
+        <file alias="leftPressed">picto/arrow-left-pressed.png</file>
+        <file alias="leftDisabled">picto/arrow-left-gris.png</file>
+        <file alias="up">picto/arrow-up.png</file>
+        <file alias="upHover">picto/arrow-up-hover.png</file>
+        <file alias="upPressed">picto/arrow-up-pressed.png</file>
+        <file alias="upDisabled">picto/arrow-up-gris.png</file>
+        <file alias="down">picto/arrow-down.png</file>
+        <file alias="downHover">picto/arrow-down-hover.png</file>
+        <file alias="downPressed">picto/arrow-down-pressed.png</file>
+        <file alias="downDisabled">picto/arrow-down-gris.png</file>
+    </qresource>
+</RCC>

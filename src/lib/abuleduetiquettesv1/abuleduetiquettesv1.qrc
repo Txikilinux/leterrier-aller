@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/abuleduetiquettesv1">
+        <file alias="handCursor">picto/handCursor.png</file>
+    </qresource>
+</RCC>

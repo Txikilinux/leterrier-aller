@@ -1,0 +1,15 @@
+Source: leterrier-aller
+Section: misc
+Priority: extra
+Maintainer: Eric Seigne <eric.seigne@ryxeo.com>
+Build-Depends: cdbs, libqt5webkit5-dev, qt5-qmake, qtbase5-dev, libqt5core5a | libqt5core5a, zlib1g-dev, libexiv2-dev, libmagic-dev, libhunspell-dev, libvorbis-dev
+Standards-Version: 3.8.3
+Homepage: http://www.abuledu.org/leterrier/leterrier-aller
+Vcs-Browser: https://redmine.ryxeo.com/projects/leterrier-aller/issues
+
+Package: leterrier-aller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${leterrier:Depends}, exiv2, zlib1g, hunspell-fr
+Description: Logiciel d'exercices de lecture
+ Logiciel d'exercices de lecture
+ Ce logiciel fait partie du Terrier d'AbulEdu

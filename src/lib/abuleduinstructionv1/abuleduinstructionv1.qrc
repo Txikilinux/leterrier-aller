@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/abuleduinstructionv1/buttons">
+        <file alias="micro">picto/micro.png</file>
+        <file alias="microHover">picto/micro-hover.png</file>
+        <file alias="microPressed">picto/micro-pressed.png</file>
+        <file alias="microDisabled">picto/micro-gris.png</file>
+        <file alias="delete">picto/delete.png</file>
+        <file alias="deleteHover">picto/delete-hover.png</file>
+        <file alias="deletePressed">picto/delete-pressed.png</file>
+        <file alias="deleteDisabled">picto/delete-gris.png</file>
+        <file alias="initialize">picto/init.png</file>
+        <file alias="initializeHover">picto/init-hover.png</file>
+        <file alias="initializePressed">picto/init-pressed.png</file>
+        <file alias="initializeDisabled">picto/init-gris.png</file>
+    </qresource>
+</RCC>

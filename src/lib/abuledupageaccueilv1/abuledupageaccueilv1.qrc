@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/abuledupageaccueilv1">
+        <file>settings.conf</file>
+        <file>images/fond.jpg</file>
+        <file>images/rect_bulle.png</file>
+        <file>images/bulleTablette.png</file>
+        <file>images/bulle.png</file>
+    </qresource>
+</RCC>

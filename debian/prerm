@@ -1,0 +1,5 @@
+#!/bin/bash
+
+xdg-desktop-menu uninstall /usr/share/applications/leterrier-aller.desktop
+
+#DEBHELPER#

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AbulEduInstructionV1</class>
+ <widget class="QGroupBox" name="AbulEduInstructionV1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>843</width>
+    <height>159</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GroupBox</string>
+  </property>
+  <property name="title">
+   <string>Titre consigne</string>
+  </property>
+  <property name="checkable">
+   <bool>true</bool>
+  </property>
+  <property name="checked">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="2">
+    <widget class="QTextEdit" name="abeInstructionText"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QFrame" name="abeInstructionFrmMultiMedia">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="abeInstructionHlFrmMultimedia"/>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QCheckBox" name="abeInstructionCbSingleInstruction">
+     <property name="text">
+      <string>Consigne unique en début de séquence</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QFrame" name="abeInstructionFrmButtons">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="AbulEduFlatBoutonV1" name="abeInstructionBtnShowControlAudio" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="text" stdset="0">
+         <string/>
+        </property>
+        <property name="flat" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="IconeNormale" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/micro</string>
+        </property>
+        <property name="IconeSurvol" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/microHover</string>
+        </property>
+        <property name="IconePressed" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/microPressed</string>
+        </property>
+        <property name="IconeDisabled" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/microDisabled</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="AbulEduFlatBoutonV1" name="abeInstructionBtnDelete" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="text" stdset="0">
+         <string/>
+        </property>
+        <property name="flat" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="IconeNormale" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/delete</string>
+        </property>
+        <property name="IconeSurvol" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/deleteHover</string>
+        </property>
+        <property name="IconePressed" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/deletePressed</string>
+        </property>
+        <property name="IconeDisabled" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/deleteDisabled</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="AbulEduFlatBoutonV1" name="abeInstructionBtnInitialize" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>48</width>
+          <height>48</height>
+         </size>
+        </property>
+        <property name="text" stdset="0">
+         <string/>
+        </property>
+        <property name="flat" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="IconeNormale" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/initialize</string>
+        </property>
+        <property name="IconeSurvol" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/initializeHover</string>
+        </property>
+        <property name="IconePressed" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/initializePressed</string>
+        </property>
+        <property name="IconeDisabled" stdset="0">
+         <string notr="true">:/abuleduinstructionv1/buttons/initializeDisabled</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AbulEduFlatBoutonV1</class>
+   <extends>QWidget</extends>
+   <header>abuleduflatboutonv1.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,43 @@
+leterrier-aller (5.2.0~ryxeo82~revno1486~bionic1) bionic; urgency=medium
+
+  * jenkins-autobuild-82
+
+ -- jenkins AutoBuilder (jenkins-ubu-18) <jenkins.deb@abuledu.org>  Thu, 08 Aug 2019 22:59:07 +0000
+
+leterrier-aller (5.0~lucid1~ryxeo1) lucid; urgency=low
+
+  * Incrémentation du revno juste pour forcer la reconnaissance du fait que c'est un nouveau code à builder (les modifications ne concernent que les lib)
+  
+ -- Philippe Cadaugade <philippe.cadaugade@ryxeo.com>  Fri, 27 Jul 2012 14:31:20 +0200
+
+leterrier-aller (5.0beta3~lucid1~ryxeo1) lucid; urgency=low
+
+  * Quatrième version bétatestable
+  * Aide contextualisée au clic sur les lapins
+  
+ -- Philippe Cadaugade <philippe.cadaugade@ryxeo.com>  Fri, 27 Jul 2012 14:31:20 +0200
+
+leterrier-aller (4.99.1beta3~lucid1~ryxeo1) lucid; urgency=low
+
+  * Troisième version bétatestable
+  * Fichiers .abe de démo intégrés
+  
+ -- Philippe Cadaugade <philippe.cadaugade@ryxeo.com>  Fri, 27 Jul 2012 14:31:20 +0200
+
+leterrier-aller (4.99.1beta2~lucid1~ryxeo1) lucid; urgency=low
+
+  * Deuxième version bétatestable
+
+ -- Eric Seigne <eric.seigne@ryxeo.com>  Fri, 25 Jul 2012 09:22:46 +0200
+
+leterrier-aller (4.99.1beta1~lucid1~ryxeo1) lucid; urgency=low
+
+  * Première version bétatestable
+
+ -- Eric Seigne <eric.seigne@ryxeo.com>  Fri, 01 Jun 2012 09:22:46 +0200
+
+leterrier-aller (4.99~lucid~ryxeo1) lucid; urgency=low
+
+  * initial release
+
+ -- Eric Seigne <eric.seigne@ryxeo.com>  Fri, 09 Mar 2012 08:22:16 +0100

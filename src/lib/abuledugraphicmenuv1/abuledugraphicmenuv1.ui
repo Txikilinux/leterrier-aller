@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AbulEduGraphicMenuV1</class>
+ <widget class="QWidget" name="AbulEduGraphicMenuV1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>637</width>
+    <height>224</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+  </property>
+  <widget class="AbuleduLabelV1" name="abeGraphicMenuLblBackground">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>681</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="abuledugraphicmenuv1.qrc">:/abuledugraphicmenuv1/fond-04</pixmap>
+   </property>
+  </widget>
+  <widget class="AbulEduFlatBoutonV1" name="abeGraphicMenuBtnReport">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>6</y>
+     <width>55</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Ouvrir le livret de compétence</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Livret</string>
+   </property>
+   <property name="IconeNormale" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnLivret</string>
+   </property>
+   <property name="IconeSurvol" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnLivretHover</string>
+   </property>
+   <property name="IconePressed" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnLivretPressed</string>
+   </property>
+   <property name="IconeDisabled" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnLivretDisabled</string>
+   </property>
+  </widget>
+  <widget class="AbulEduFlatBoutonV1" name="abeGraphicMenuBtnHelp">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>6</y>
+     <width>55</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Ouvrir la boîte d'Aide</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Aide</string>
+   </property>
+   <property name="IconeNormale" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnAide</string>
+   </property>
+   <property name="IconeSurvol" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnAideHover</string>
+   </property>
+   <property name="IconePressed" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnAidePressed</string>
+   </property>
+   <property name="IconeDisabled" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnAideDisabled</string>
+   </property>
+  </widget>
+  <widget class="AbulEduFlatBoutonV1" name="abeGraphicMenuBtnBox">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>6</y>
+     <width>55</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Ouvrir un module</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Ouverture</string>
+   </property>
+   <property name="IconeNormale" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnBox</string>
+   </property>
+   <property name="IconeSurvol" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnBoxHover</string>
+   </property>
+   <property name="IconePressed" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnBoxPressed</string>
+   </property>
+   <property name="IconeDisabled" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnBoxDisabled</string>
+   </property>
+  </widget>
+  <widget class="AbulEduFlatBoutonV1" name="abeGraphicMenuBtnClose">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>6</y>
+     <width>55</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Replier le menu graphique</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="IconeNormale" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnFermer</string>
+   </property>
+   <property name="IconeSurvol" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnFermerHover</string>
+   </property>
+   <property name="IconePressed" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnFermerPressed</string>
+   </property>
+   <property name="IconeDisabled" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnFermerDisabled</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="abeGraphicMenuLblRight">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>20</y>
+     <width>91</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="abeGraphicMenuLblLeft">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>31</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="AbulEduFlatBoutonV1" name="abeGraphicMenuBtnQuit">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>6</y>
+     <width>55</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Quitter le logiciel</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Sortie</string>
+   </property>
+   <property name="IconeNormale" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnQuitter</string>
+   </property>
+   <property name="IconeSurvol" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnQuitterHover</string>
+   </property>
+   <property name="IconePressed" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnQuitterPressed</string>
+   </property>
+   <property name="IconeDisabled" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnQuitterDisabled</string>
+   </property>
+  </widget>
+  <widget class="AbulEduFlatBoutonV1" name="abeGraphicMenuBtnOpenFile">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>6</y>
+     <width>55</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Ouvrir un fichier</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="AbulEduFlatBoutonV1" name="abeGraphicMenuBtnSettings">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>6</y>
+     <width>55</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Modifier les paramètres</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Paramètres</string>
+   </property>
+  </widget>
+  <widget class="AbulEduFlatBoutonV1" name="abeGraphicMenuBtnOpenMenu">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>10</y>
+     <width>61</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>Déplier le menu graphique</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="IconeNormale" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnOuvrirMenu</string>
+   </property>
+   <property name="IconeSurvol" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnOuvrirMenuHover</string>
+   </property>
+   <property name="IconePressed" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnOuvrirMenuPressed</string>
+   </property>
+   <property name="IconeDisabled" stdset="0">
+    <string notr="true">:/abuledugraphicmenuv1/btnOuvrirMenuDisabled</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AbulEduFlatBoutonV1</class>
+   <extends>QPushButton</extends>
+   <header>abuleduflatboutonv1.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AbuleduLabelV1</class>
+   <extends>QLabel</extends>
+   <header>abuledulabelv1.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="abuledugraphicmenuv1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

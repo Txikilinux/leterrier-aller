@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/editeur">
+        <file alias="essai">data/picto/essai.png</file>
+        <file alias="mediatheque-up">data/picto/mediatheque-up.png</file>
+        <file alias="quitter">data/picto/quitter.png</file>
+        <file alias="disque">data/picto/disque.png</file>
+        <file alias="cloud-up">data/picto/cloud-up.png</file>
+        <file alias="cloud">data/picto/cloud.png</file>
+        <file alias="flecheD">data/picto/flecheD.png</file>
+        <file alias="flecheG">data/picto/flecheG.png</file>
+        <file alias="lapin">data/picto/lapin.png</file>
+        <file alias="ttrconsignesequence">data/instructions/ttrConsigneSequence.ogg</file>
+        <file alias="oaconsignesequence">data/instructions/oaConsigneSequence.ogg</file>
+        <file alias="momconsignesequence">data/instructions/momConsigneSequence.ogg</file>
+        <file alias="phmconsignesequence">data/instructions/phmConsigneSequence.ogg</file>
+        <file alias="pamconsignesequence">data/instructions/pamConsigneSequence.ogg</file>
+        <file alias="pseconsignesequence">data/instructions/pseConsigneSequence.ogg</file>
+        <file alias="rrconsignesequence">data/instructions/rrConsigneSequence.ogg</file>
+        <file alias="video">data/picto/video.png</file>
+        <file alias="videoPressed">data/picto/videoPressed.png</file>
+        <file alias="videoHover">data/picto/video-hover.png</file>
+    </qresource>
+    <qresource prefix="/exercices">
+        <file>data/picto/barre-espace.png</file>
+        <file>data/picto/fleche-droite.png</file>
+        <file>data/picto/fleche-gauche.png</file>
+        <file>data/picto/fleche-droite-petit.png</file>
+        <file>data/picto/fleche-gauche-petit.png</file>
+        <file>data/picto/barre-espace-petit.png</file>
+    </qresource>
+    <qresource prefix="/abuledudisplaypieces">
+        <file alias="arrowUp">data/picto/arrow-up.png</file>
+        <file alias="arrowUpHover">data/picto/arrow-up-hover.png</file>
+        <file alias="arrowUpPressed">data/picto/arrow-up-pressed.png</file>
+        <file alias="arrowDownHover">data/picto/arrow-down-hover.png</file>
+        <file alias="arrowDownPressed">data/picto/arrow-down-pressed.png</file>
+        <file alias="arrowDown">data/picto/arrow-down.png</file>
+        <file alias="arrowDownDisabled">data/picto/arrow-down-gris.png</file>
+        <file alias="arrowUpDisabled">data/picto/arrow-up-gris.png</file>
+    </qresource>
+</RCC>
